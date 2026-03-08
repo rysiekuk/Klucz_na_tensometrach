@@ -1,6 +1,6 @@
 # Morse Paddle Trainer (Arduino)
 
-Simple Arduino project for practicing Morse code using pressure sensors (load cells).
+Simple Arduino project for Morse key using pressure sensors (load cells).
 The device measures the force applied to two paddles (DIT and DASH) and converts it to signals or audio output.
 
 ## Hardware
@@ -36,7 +36,7 @@ The device measures the force applied to two paddles (DIT and DASH) and converts
 * Separate sensors for **DIT** and **DASH**
 * 24-bit ADC for high precision measurement
 * Adjustable thresholds
-* Audio output through 3.5 mm jack
+* Key output through 3.5 mm jack
 * Battery powered (18650)
 
 ## Hardware Configuration
@@ -50,8 +50,7 @@ The device measures the force applied to two paddles (DIT and DASH) and converts
 * EEPROM configuration storage
 * Adjustable sensitivity
 * USB configuration interface
-* OLED display
+
 
 ## Author
-
-Ryszard Palugniok
+M0RPA
