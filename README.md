@@ -1,0 +1,1 @@
+# Klucz_na_tensometrach
