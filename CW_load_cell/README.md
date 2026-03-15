@@ -29,14 +29,64 @@ Ten program służy do kalibracji klucza Morse'a poprzez pomiar odczytów z czuj
 
 Dla każdej linii obliczamy wartość:
 
+- Linie z 1 monetą: `(150000 - 90000) / 8,75 = 6 857`  
+- Linie z 2 monetami: `(200000 - 90000) / (8,75 × 2) = 6 285`  
 
-linie z 1 monetą: (150000 - 90000) / 8.75              =6857
+Z wyliczonych wartości przyjmujemy średnią, którą zapisujemy w `factor_dash`.
 
-linie z 2 monetami: (200000 - 90000) / (8.75 * 2)      =6285
+---
 
-Z wyliczonych wartosci przyjmujemy srednia wartosc ktora zapisujemy w factor_dash
+### 3. Kalibracja "dit" (kropka)
+
+1. Obróć klucz o 180° tak, aby łopatki kropek były skierowane do góry.  
+2. Powtórz procedurę opisaną w sekcji 1–2, aby wyliczyć i zapisać `factor_dit`.
 
 
-### 3. To samo powtarzamy dla dit
+# Morse Key Calibration Program
 
-Klucz obrocic o 180 stopni lopatki kropek do gory
+This program is used to calibrate a Morse key by measuring sensor readings and converting them into `factor_dit` and `factor_dash`.
+
+---
+
+## Getting Started
+
+1. Connect the Morse key to the serial port.  
+2. Run the `calibracja` program – the current value from the key's lever will be displayed on the screen.
+
+---
+
+## Calibration Instructions
+
+### 1. Dash ("–") Calibration
+
+1. Position the key horizontally with the dash paddle facing up.  
+2. Read the sensor value and record it as `weight 0`.  
+3. Place a coin of known weight on the paddle and record the sensor reading as `weight X g`.  
+4. Repeat by adding more coins and recording each reading.  
+5. Total weight should be approximately 50 g.
+
+**Example for a 1-pound coin (weight 8.75 g):**
+
+| Weight [g] | Sensor Reading |
+|------------|----------------|
+| 0          | 90,000         |
+| 8.75       | 150,000        |
+| 17.5       | 200,000        |
+
+---
+
+### 2. Calculating the Dash Factor
+
+For each measurement, calculate the value:
+
+- Single-coin line: `(150000 - 90000) / 8.75 = 6,857`  
+- Two-coin line: `(200000 - 90000) / (8.75 × 2) = 6,285`  
+
+The average of the calculated values is assigned to `factor_dash`.
+
+---
+
+### 3. Dit ("·") Calibration
+
+1. Rotate the key 180° so that the dot paddle faces up.  
+2. Repeat the procedure from sections 1–2 to calculate and save `factor_dit`.
