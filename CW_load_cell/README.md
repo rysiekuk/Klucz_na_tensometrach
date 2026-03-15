@@ -31,6 +31,7 @@ Dla każdej linii obliczamy wartość:
 
 
 linie z 1 monetą: (150000 - 90000) / 8.75              =6857
+
 linie z 2 monetami: (200000 - 90000) / (8.75 * 2)      =6285
 
 Z wyliczonych wartosci przyjmujemy srednia wartosc ktora zapisujemy w factor_dash
