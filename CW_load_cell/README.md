@@ -15,7 +15,7 @@ Ten program służy do kalibracji klucza Morse'a poprzez pomiar odczytów z czuj
 2. Odczytaj wartość czujnika i zapisz jako `waga 0`.
 3. Połóż na łopatkę monetę o znanej wadze i odczytaj wartość – zapisz jako `waga X gramów`.
 4. Powtarzaj, dokładając kolejne monety i zapisując kolejne odczyty.
-5. Calkowita waga oklo 50 gr
+5. Calkowita waga około 50 gr
 
 **Przykład dla monety 1-funtowej (waga 8.75 g):**
 
