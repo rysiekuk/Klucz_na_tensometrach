@@ -20,6 +20,9 @@ The device measures the force applied to two paddles (DIT and DASH) and converts
 * Load cell 300 g ×2
   https://www.aliexpress.com/item/1005011628599440.html
 
+ * Load cell 750 g ×2
+   https://www.aliexpress.com/item/1644918827.html?spm=a2g0o.order_list.order_list_main.5.39761802onGEvt
+
 ### Audio Output
 
 * 3.5 mm Audio Jack
