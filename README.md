@@ -18,7 +18,7 @@ The device measures the force applied to two paddles (DIT and DASH) and converts
 ### Sensors
 
  * Load cell 750 g ×2
-   https://www.aliexpress.com/item/1644918827.html?spm=a2g0o.order_list.order_list_main.5.39761802onGEvt
+   https://www.aliexpress.com/item/1644918827.html
 
 ### Audio Output
 
