@@ -34,6 +34,8 @@ Dla każdej linii obliczamy wartość:
 
 Z wyliczonych wartości przyjmujemy średnią, którą zapisujemy w `factor_dash`.
 
+Dodany Excel do obliczen
+
 ---
 
 ### 3. Kalibracja "dit" (kropka)
@@ -90,3 +92,5 @@ The average of the calculated values is assigned to `factor_dash`.
 
 1. Rotate the key 180° so that the dot paddle faces up.  
 2. Repeat the procedure from sections 1–2 to calculate and save `factor_dit`.
+
+Added excel for calculation
