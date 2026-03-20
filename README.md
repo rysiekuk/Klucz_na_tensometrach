@@ -30,6 +30,11 @@ The device measures the force applied to two paddles (DIT and DASH) and converts
 * 18650 Lithium Battery Shield V8
   https://www.aliexpress.com/item/1005006252337213.html
 
+### Photorelay
+
+* Photorelay TP175A  x2
+  https://www.aliexpress.com/item/1005009826702202.html
+
 ## Features
 
 * Measures force applied to Morse paddles
