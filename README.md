@@ -35,6 +35,11 @@ The device measures the force applied to two paddles (DIT and DASH) and converts
 * Photorelay TP175A  x2
   https://www.aliexpress.com/item/1005009826702202.html
 
+### Jack 3.5 mm socket
+
+* Jack 3.5 mm
+  https://www.aliexpress.com/item/1005005562420070.html
+
 ## Features
 
 * Measures force applied to Morse paddles
